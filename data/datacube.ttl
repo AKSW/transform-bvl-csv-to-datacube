@@ -1,508 +1,508 @@
-@prefix ns1: <http://le-online.de/> .
-@prefix ns2: <http://purl.org/linked-data/cube#> .
+@prefix ns1: <http://purl.org/linked-data/cube#> .
+@prefix ns2: <http://le-online.de/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:obs-00 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "148"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-01 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "84"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-02 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "57"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-03 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "48"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-04 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "62"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-05 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "86"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-06 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "35"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-07 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "41"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-08 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "219"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-09 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-bildung-freizeit-kultur ;
-    ns1:count "99"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-10 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "7"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-11 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "5"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-12 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-13 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "3"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-14 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-15 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-16 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "1"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-17 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "1"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-18 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "7"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-19 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-dienstleistungen ;
-    ns1:count "4"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-20 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "54"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-21 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "28"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-22 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "18"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-23 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "33"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-24 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "12"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-25 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "45"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-26 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "1"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-27 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "28"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-28 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "79"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-29 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gastronomie-ubernachtung ;
-    ns1:count "29"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-30 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "119"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-31 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "45"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-32 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "58"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-33 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "47"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-34 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "38"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-35 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "46"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-36 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "14"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-37 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "19"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-38 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "153"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-39 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-gesundheit-soziales ;
-    ns1:count "85"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-40 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "73"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-41 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "32"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-42 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "44"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-43 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "21"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-44 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "29"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-45 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "34"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-46 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "4"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-47 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "14"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-48 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "62"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-49 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-recht-verwaltung-wirtschaft ;
-    ns1:count "61"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-50 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "24"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-51 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "8"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-52 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "12"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-53 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "6"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-54 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "2"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-55 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "20"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-56 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "1"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-57 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "2"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-58 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "48"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-59 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verbande-vereine ;
-    ns1:count "14"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-60 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "3"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-61 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-62 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-63 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "2"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-personenaufzug-vorhanden ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-64 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-65 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "1"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-66 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "0"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-horgeschadigte ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-67 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "1"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-68 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "3"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung ;
-    ns2:dataSet ns1:dataset .
-
-ns1:obs-69 a ns2:Observation ;
-    ns1:category ns1:gebaude-aus-verkehr ;
-    ns1:count "6"^^xsd:float ;
-    ns1:feature ns1:anzahl-mit-markierten-behindertenparkplatzen ;
-    ns2:dataSet ns1:dataset .
-
-ns1:categoryCS a ns2:ComponentSpecification ;
-    ns2:dimension ns1:category .
-
-ns1:count a ns2:MeasureProperty ;
+ns2:obs-00 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "148"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-01 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "84"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-02 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "57"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-03 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "48"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-04 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "62"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-05 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "86"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-06 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "35"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-07 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "41"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-08 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "219"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-09 a ns1:Observation ;
+    ns2:category ns2:gebaudeausbildungfreizeitkultur ;
+    ns2:count "99"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-10 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "7"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-11 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "5"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-12 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-13 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "3"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-14 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-15 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-16 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "1"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-17 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "1"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-18 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "7"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-19 a ns1:Observation ;
+    ns2:category ns2:gebaudeausdienstleistungen ;
+    ns2:count "4"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-20 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "54"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-21 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "28"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-22 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "18"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-23 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "33"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-24 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "12"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-25 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "45"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-26 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "1"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-27 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "28"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-28 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "79"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-29 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgastronomieubernachtung ;
+    ns2:count "29"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-30 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "119"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-31 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "45"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-32 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "58"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-33 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "47"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-34 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "38"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-35 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "46"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-36 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "14"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-37 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "19"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-38 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "153"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-39 a ns1:Observation ;
+    ns2:category ns2:gebaudeausgesundheitsoziales ;
+    ns2:count "85"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-40 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "73"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-41 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "32"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-42 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "44"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-43 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "21"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-44 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "29"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-45 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "34"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-46 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "4"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-47 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "14"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-48 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "62"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-49 a ns1:Observation ;
+    ns2:category ns2:gebaudeausrechtverwaltungwirtschaft ;
+    ns2:count "61"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-50 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "24"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-51 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "8"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-52 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "12"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-53 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "6"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-54 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "2"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-55 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "20"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-56 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "1"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-57 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "2"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-58 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "48"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-59 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverbandevereine ;
+    ns2:count "14"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-60 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "3"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-61 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-62 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-63 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "2"^^xsd:float ;
+    ns2:feature ns2:anzahlmitpersonenaufzugvorhanden ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-64 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-65 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "1"^^xsd:float ;
+    ns2:feature ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-66 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "0"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurhorgeschadigte ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-67 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "1"^^xsd:float ;
+    ns2:feature ns2:anzahlmithilfenfurblindeodersehbehindertemenschen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-68 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "3"^^xsd:float ;
+    ns2:feature ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung ;
+    ns1:dataSet ns2:dataset .
+
+ns2:obs-69 a ns1:Observation ;
+    ns2:category ns2:gebaudeausverkehr ;
+    ns2:count "6"^^xsd:float ;
+    ns2:feature ns2:anzahlmitmarkiertenbehindertenparkplatzen ;
+    ns1:dataSet ns2:dataset .
+
+ns2:categoryCS a ns1:ComponentSpecification ;
+    ns1:dimension ns2:category .
+
+ns2:count a ns1:MeasureProperty ;
     rdfs:label "Anzahl"@de,
         "Count"@en ;
     rdfs:range xsd:decimal .
 
-ns1:countCS a ns2:ComponentSpecification ;
-    ns2:measure ns1:count .
+ns2:countCS a ns1:ComponentSpecification ;
+    ns1:measure ns2:count .
 
-ns1:dsd a ns2:DataStructureDefinition ;
-    ns2:component ns1:categoryCS,
-        ns1:countCS,
-        ns1:featureCS .
+ns2:dsd a ns1:DataStructureDefinition ;
+    ns1:component ns2:categoryCS,
+        ns2:countCS,
+        ns2:featureCS .
 
-ns1:featureCS a ns2:ComponentSpecification ;
-    ns2:dimension ns1:feature .
+ns2:featureCS a ns1:ComponentSpecification ;
+    ns1:dimension ns2:feature .
 
-ns1:anzahl-mit-aufzug-fur-rollstuhlfahrer-voll-zuganglich a ns1:feature ;
+ns2:anzahlmitaufzugfurrollstuhlfahrervollzuganglich a ns2:feature ;
     rdfs:label "Anzahl-mit-Aufzug--für-Rollstuhlfahrer-voll-zugänglich"@de .
 
-ns1:anzahl-mit-eingangsbereich-eingeschrankt-zuganglich-fur-rollstuhlfahrer a ns1:feature ;
+ns2:anzahlmiteingangsbereicheingeschranktzuganglichfurrollstuhlfahrer a ns2:feature ;
     rdfs:label "Anzahl-mit-Eingangsbereich-eingeschränkt-zugänglich-für-Rollstuhlfahrer"@de .
 
-ns1:anzahl-mit-eingangsbereich-vollstandig-zuganglich-fur-rollstuhlfahrer a ns1:feature ;
+ns2:anzahlmiteingangsbereichvollstandigzuganglichfurrollstuhlfahrer a ns2:feature ;
     rdfs:label "Anzahl-mit-Eingangsbereich-vollständig-zugänglich-für-Rollstuhlfahrer"@de .
 
-ns1:anzahl-mit-hilfen-fur-blinde-oder-sehbehinderte-menschen a ns1:feature ;
+ns2:anzahlmithilfenfurblindeodersehbehindertemenschen a ns2:feature ;
     rdfs:label "Anzahl-mit-Hilfen-für-Blinde-oder-Sehbehinderte-Menschen"@de .
 
-ns1:anzahl-mit-hilfen-fur-horgeschadigte a ns1:feature ;
+ns2:anzahlmithilfenfurhorgeschadigte a ns2:feature ;
     rdfs:label "Anzahl-mit-Hilfen-für-Hörgeschädigte"@de .
 
-ns1:anzahl-mit-markierten-behindertenparkplatzen a ns1:feature ;
+ns2:anzahlmitmarkiertenbehindertenparkplatzen a ns2:feature ;
     rdfs:label "Anzahl-mit-markierten-Behindertenparkplätzen"@de .
 
-ns1:anzahl-mit-personenaufzug-vorhanden a ns1:feature ;
+ns2:anzahlmitpersonenaufzugvorhanden a ns2:feature ;
     rdfs:label "Anzahl-mit-Personenaufzug-vorhanden"@de .
 
-ns1:anzahl-mit-speziellen-und-personlichen-hilfeleistungen-fur-menschen-mit-behinderung a ns1:feature ;
+ns2:anzahlmitspeziellenundpersonlichenhilfeleistungenfurmenschenmitbehinderung a ns2:feature ;
     rdfs:label "Anzahl-mit-speziellen-und-persönlichen-Hilfeleistungen-für-Menschen-mit-Behinderung"@de .
 
-ns1:anzahl-mit-toilette-eingeschrankt-zuganglich-fur-rollstuhlfahrer a ns1:feature ;
+ns2:anzahlmittoiletteeingeschranktzuganglichfurrollstuhlfahrer a ns2:feature ;
     rdfs:label "Anzahl-mit-Toilette-eingeschränkt-zugänglich-für-Rollstuhlfahrer"@de .
 
-ns1:anzahl-mit-toilette-vollstandig-zuganglich-fur-rollstuhlfahrer a ns1:feature ;
+ns2:anzahlmittoilettevollstandigzuganglichfurrollstuhlfahrer a ns2:feature ;
     rdfs:label "Anzahl-mit-Toilette-vollständig-zugänglich-für-Rollstuhlfahrer"@de .
 
-ns1:category a ns2:DimensionProperty ;
+ns2:category a ns1:DimensionProperty ;
     rdfs:label "Kategorie"@de,
         "Category"@en .
 
-ns1:gebaude-aus-bildung-freizeit-kultur a ns1:category ;
+ns2:gebaudeausbildungfreizeitkultur a ns2:category ;
     rdfs:label "Gebäude aus Bildung/Freizeit/Kultur"@de .
 
-ns1:gebaude-aus-dienstleistungen a ns1:category ;
+ns2:gebaudeausdienstleistungen a ns2:category ;
     rdfs:label "Gebäude aus Dienstleistungen"@de .
 
-ns1:gebaude-aus-gastronomie-ubernachtung a ns1:category ;
+ns2:gebaudeausgastronomieubernachtung a ns2:category ;
     rdfs:label "Gebäude aus Gastronomie/Übernachtung"@de .
 
-ns1:gebaude-aus-gesundheit-soziales a ns1:category ;
+ns2:gebaudeausgesundheitsoziales a ns2:category ;
     rdfs:label "Gebäude aus Gesundheit/Soziales"@de .
 
-ns1:gebaude-aus-recht-verwaltung-wirtschaft a ns1:category ;
+ns2:gebaudeausrechtverwaltungwirtschaft a ns2:category ;
     rdfs:label "Gebäude aus Recht/Verwaltung/Wirtschaft"@de .
 
-ns1:gebaude-aus-verbande-vereine a ns1:category ;
+ns2:gebaudeausverbandevereine a ns2:category ;
     rdfs:label "Gebäude aus Verbände/Vereine"@de .
 
-ns1:gebaude-aus-verkehr a ns1:category ;
+ns2:gebaudeausverkehr a ns2:category ;
     rdfs:label "Gebäude aus Verkehr"@de .
 
-ns1:feature a ns2:DimensionProperty ;
+ns2:feature a ns1:DimensionProperty ;
     rdfs:label "Merkmal"@de,
         "Feature"@en .
 
-ns1:dataset a ns2:DataSet ;
-    ns2:structure ns1:dsd .
+ns2:dataset a ns1:DataSet ;
+    ns1:structure ns2:dsd .
 
