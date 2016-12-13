@@ -1,4 +1,4 @@
-import sys, getopt, os
+import sys, getopt, os, stat
 import pandas as pd
 
 
@@ -210,8 +210,11 @@ def main():
 
     result_csv_path  = querying(input, directory)
     print('Finished statistical extraction.')
-    csv_to_datacube(result_csv_path, directory)
+    result_dc_path = csv_to_datacube(result_csv_path, directory)
     print('Finished transformation to data cube.')
+
+    os.chmod(result_csv_path, stat.S_IROTH | stat.S_IWOTH | stat.S_IRUSR | stat.S_IWUSR | stat.S_IRGRP | stat.S_IWGRP)
+    os.chmod(result_dc_path, stat.S_IROTH | stat.S_IWOTH | stat.S_IRUSR | stat.S_IWUSR | stat.S_IRGRP | stat.S_IWGRP)
 
 if __name__ == '__main__':
     main()
